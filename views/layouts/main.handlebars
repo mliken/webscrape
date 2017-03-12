@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping the Interwebs</title>
+   <!-- <style>
+      body { background-color: #F2F6D0 }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>-->
+  </head>
+  <body>
+      <h1>The Economist News</h1>
+      <div>
+        
+        <form action="/scrape" method="GET">
+        
+        <button type="submit">GET ARTICLES</button>
+
+        </form>
+        <br>
+         <form action="/articles" method="GET">
+        
+        <button type="submit">SHOW SAVED ARTICLES</button>
+
+        </form>
+
+      </div>
+<hr>
+      {{{body}}}
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    
+  </body>
+</html>
