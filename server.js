@@ -37,7 +37,7 @@ app.set("view engine", "handlebars");
 
 
 // Database configuration with mongoose
-mongoose.connect ("mongodb://localhost/mongooseScrape");
+mongoose.connect ("mongodb://localhost/webscrape");
 var db = mongoose.connection;
 
 // Show any mongoose errors
