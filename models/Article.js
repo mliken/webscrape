@@ -24,7 +24,7 @@ note:{
 });
 
 //Create the Article model with ArticleSchema
-var Article=mongoose.mode("Article", ArticleSchema);
+var Article = mongoose.model("Article", ArticleSchema);
 
 //export the model
 module.exports = Article;
