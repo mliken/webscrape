@@ -10,7 +10,7 @@ var cheerio = require("cheerio");
 var methodOverride = require("method-override");
 var exphbs = require("express-handlebars");
 
-// Set mongoose to leverage built in JavaScript ES6 Promises
+
 mongoose.Promise = Promise;
 var PORT = process.env.PORT || 3000;
 
